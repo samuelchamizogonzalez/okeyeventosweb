@@ -1,0 +1,36 @@
+.landing {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/Fondo.jpg");
+  background-size: cover;
+}
+
+.isotipo {
+  position: absolute;
+  width: 130px;
+  height: 200px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: isotipo_opacity_animation 10s;
+}
+
+.logo {
+  position: absolute;
+  width: 350px;
+  height: 50px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: isotipo_opacity_animation 10s;
+}
+
+@keyframes isotipo_opacity_animation {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
